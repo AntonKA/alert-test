@@ -18,7 +18,7 @@
     { id: 'screen_locked', name: 'Screen locked', hint: 'Lock the phone and wait 10 seconds.' },
     { id: 'other_app', name: 'Another app in front', hint: 'Open another app, such as Notes, and wait 10 seconds.' },
     { id: 'silent_mode', name: 'Silent mode', hint: 'Turn on the silent switch or silent mode, keep the screen on, then tap Ready.' },
-    { id: 'low_power', name: 'Low power mode', hint: 'Turn on Low Power Mode or Battery Saver, lock the phone and wait 10 seconds.' },
+    { id: 'low_power', name: 'Low power mode', hint: 'Turn on Low Power Mode or Battery Saver, keep the page open, do not touch the phone for 40 seconds, then tap Ready.' },
   ];
   const LABELS = [
     { id: 'iphone_browser', name: 'iPhone, in the browser' },
