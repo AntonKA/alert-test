@@ -1,0 +1,1 @@
+window.ALERT_TEST = {"functionUrl": "https://nejadplgwppzhhqdlgje.supabase.co/functions/v1/alert-test", "realtimeUrl": "wss://nejadplgwppzhhqdlgje.supabase.co/realtime/v1/websocket", "publishableKey": "sb_publishable_wS3vOjrzgH05SF1_hKJMOg_lmeVKMO5", "vapidPublicKey": "BG7lOgIvyGFGrN8vXqk5sU4CVVraiYYQtL7WnEqnHFb87vuqNH7jiP7b7Cy4MrhbWMtfcjoNHAdcs2KhjsdiE_A"};

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#14181f">
+<title>Alert test</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <h1>Alert test</h1>
+  <form id="session-form" hidden>
+    <label for="session-input">Session code</label>
+    <input id="session-input" type="text" autocapitalize="none" autocomplete="off" maxlength="12">
+    <p><button type="submit" class="primary">Open</button></p>
+  </form>
+  <section id="main" hidden>
+    <p id="session-line"></p>
+    <h2>Which phone is this?</h2>
+    <div id="labels" class="choices">
+      <button type="button" data-label="iphone_browser" aria-pressed="false">iPhone, in the browser</button>
+      <button type="button" data-label="iphone_home_screen" aria-pressed="false">iPhone, from the Home Screen</button>
+      <button type="button" data-label="android" aria-pressed="false">Android</button>
+    </div>
+    <h2>Begin</h2>
+    <button id="start" type="button" class="primary">Start</button>
+    <p><button id="test-ring" type="button">Test the ring now</button></p>
+    <div id="banner" role="button" tabindex="0" hidden>Your screen may turn off. Tap here to keep it awake</div>
+    <ul id="rows" class="rows"></ul>
+    <p id="audio-session-line"></p>
+  </section>
+  <p id="status" role="status" aria-live="polite"></p>
+</main>
+<div id="ready" hidden>
+  <div class="big">READY</div>
+  <div class="num" id="alert-number"></div>
+  <button id="stop" type="button">Stop ringing</button>
+</div>
+<script src="config.js"></script>
+<script src="app.js"></script>
+<script src="customer.js"></script>
+</body>
+</html>
